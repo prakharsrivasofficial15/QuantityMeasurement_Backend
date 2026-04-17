@@ -3,8 +3,8 @@ WORKDIR /app
 
 COPY . .
 
-RUN dotnet restore Backend/QuantityMeasurement_Backend.csproj
-RUN dotnet publish Backend/QuantityMeasurement_Backend.csproj -c Release -o out
+RUN dotnet restore QuantityMeasurementAPI/QuantityMeasurementAPI.csproj
+RUN dotnet publish QuantityMeasurementAPI/QuantityMeasurementAPI.csproj -c Release -o out
 
 FROM mcr.microsoft.com/dotnet/aspnet:8.0
 WORKDIR /app

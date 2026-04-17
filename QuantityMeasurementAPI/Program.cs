@@ -19,8 +19,6 @@ builder.Services.AddDbContext<ApplicationDbContext>(options =>
 builder.Services.AddMemoryCache();
 
 // Add business layer services
-// builder.Services.AddScoped<IQuantityMeasurementRepository>(sp => 
-//     QuantityMeasurementCacheRepository.Instance);
 builder.Services.AddScoped<IQuantityMeasurementRepository, QuantityMeasurementDatabaseRepository>();
 builder.Services.AddScoped<IQuantityMeasurementService, QuantityMeasurementService>();
 
