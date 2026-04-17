@@ -1,0 +1,103 @@
+[
+  {
+    "Timestamp": "2026-04-16T12:31:43.0476759+05:30",
+    "Operation": "COMPARE",
+    "Operand1": {
+      "Value": 1,
+      "Unit": "FEET",
+      "Type": "LENGTH"
+    },
+    "Operand2": {
+      "Value": 12,
+      "Unit": "INCHES",
+      "Type": "LENGTH"
+    },
+    "Result": {
+      "Value": 1,
+      "Unit": "BOOLEAN",
+      "Type": "RESULT"
+    },
+    "HasError": false,
+    "ErrorMessage": null
+  },
+  {
+    "Timestamp": "2026-04-16T12:32:42.3102489+05:30",
+    "Operation": "CONVERT",
+    "Operand1": {
+      "Value": 1,
+      "Unit": "FEET",
+      "Type": "LENGTH"
+    },
+    "Operand2": null,
+    "Result": {
+      "Value": 12,
+      "Unit": "INCHES",
+      "Type": "LENGTH"
+    },
+    "HasError": false,
+    "ErrorMessage": null
+  },
+  {
+    "Timestamp": "2026-04-16T12:33:25.9535406+05:30",
+    "Operation": "ADD",
+    "Operand1": {
+      "Value": 2,
+      "Unit": "FEET",
+      "Type": "LENGTH"
+    },
+    "Operand2": {
+      "Value": 24,
+      "Unit": "INCHES",
+      "Type": "LENGTH"
+    },
+    "Result": {
+      "Value": 4,
+      "Unit": "FEET",
+      "Type": "LENGTH"
+    },
+    "HasError": false,
+    "ErrorMessage": null
+  },
+  {
+    "Timestamp": "2026-04-16T12:33:58.4608322+05:30",
+    "Operation": "SUBTRACT",
+    "Operand1": {
+      "Value": 5,
+      "Unit": "FEET",
+      "Type": "LENGTH"
+    },
+    "Operand2": {
+      "Value": 12,
+      "Unit": "INCHES",
+      "Type": "LENGTH"
+    },
+    "Result": {
+      "Value": 4,
+      "Unit": "FEET",
+      "Type": "LENGTH"
+    },
+    "HasError": false,
+    "ErrorMessage": null
+  },
+  {
+    "Timestamp": "2026-04-16T12:34:33.6571469+05:30",
+    "Operation": "DIVIDE",
+    "Operand1": {
+      "Value": 10,
+      "Unit": "FEET",
+      "Type": "LENGTH"
+    },
+    "Operand2": {
+      "Value": 2,
+      "Unit": "FEET",
+      "Type": "LENGTH"
+    },
+    "Result": {
+      "Value": 5,
+      "Unit": "SCALAR",
+      "Type": "RESULT"
+    },
+    "HasError": false,
+    "ErrorMessage": null
+  }
+]

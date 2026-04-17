@@ -1,0 +1,83 @@
+# User secrets
+appsettings.Development.json
+appsettings.Production.json
+**/secrets.json
+
+# Build folders
+bin/
+obj/
+out/
+
+# Visual Studio files
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.vspscc
+*.vssscc
+.builds
+*.pidb
+*.svclog
+*.scc
+
+# Rider / JetBrains
+.idea/
+*.sln.iml
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# Logs
+*.log
+logs/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# NuGet packages
+*.nupkg
+packages/
+**/packages/*
+!**/packages/build/
+
+# Test results
+TestResults/
+*.trx
+*.coverage
+*.coveragexml
+
+# Coverage reports
+coverage/
+*.lcov
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+
+# .NET specific
+*.cache
+*.dll
+*.exe
+*.pdb
+*.resources
+*.snk
+*.userosscache
+
+# ASP.NET specific
+/App_Data/
+*.pubxml
+*.pubxml.user
+*.publishproj
+Properties/PublishProfiles/
