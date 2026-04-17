@@ -1,0 +1,59 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+  <!-- This is the project file for the QuantityMeasurementAPI, a .NET Web API application -->
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <NoWarn>$(NoWarn);1591</NoWarn>
+    <UserSecretsId>ff1ea445-c33e-41d7-a612-1d34cf88aa82</UserSecretsId>
+  </PropertyGroup>
+
+  <!-- Package references for NuGet dependencies used in the project -->
+  <ItemGroup>
+    <!-- Password hashing library for secure password storage -->
+    <PackageReference Include="BCrypt.Net-Next" Version="4.0.3" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.Google" Version="8.0.0" />
+    
+    <!-- JWT Bearer authentication middleware for ASP.NET Core -->
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="8.0.0" />
+    
+    <!-- Entity Framework Core ORM for database operations -->
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.0" />
+    
+    <!-- Design-time tools for EF Core migrations and scaffolding -->
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="8.0.0">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+    
+    <!-- Command-line tools for EF Core migrations and database operations -->
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="8.0.0">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+  
+    <!-- OpenAPI specification library for .NET -->
+    <PackageReference Include="Microsoft.OpenApi" Version="1.6.14" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    
+    <!-- Logging framework for .NET applications -->
+    <PackageReference Include="NLog" Version="5.2.8" />
+    
+    <!-- ASP.NET Core integration for NLog logging -->
+    <PackageReference Include="NLog.Web.AspNetCore" Version="5.3.8" />
+    <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="8.0.0" />
+    
+    <!-- Swagger/OpenAPI implementation for ASP.NET Core -->
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
+  </ItemGroup>
+
+  <!-- Project references to other layers in the solution -->
+  <ItemGroup>
+    <ProjectReference Include="..\BusinessLayer\BusinessLayer.csproj" />
+    <ProjectReference Include="..\ModelLayer\ModelLayer.csproj" />
+    <ProjectReference Include="..\RepositaryLayer\RepositaryLayer.csproj" />
+  </ItemGroup>
+
+</Project>

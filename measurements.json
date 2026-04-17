@@ -1,0 +1,19 @@
+[
+  {
+    "Timestamp": "2026-03-21T23:58:26.331362+05:30",
+    "Operation": "TEST_OPERATION",
+    "Operand1": {
+      "Value": 999,
+      "Unit": "TEST",
+      "Type": "TEST"
+    },
+    "Operand2": null,
+    "Result": {
+      "Value": 999,
+      "Unit": "TEST",
+      "Type": "TEST"
+    },
+    "HasError": false,
+    "ErrorMessage": null
+  }
+]

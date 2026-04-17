@@ -1,0 +1,8 @@
+<Solution>
+  <Project Path="BusinessLayer/BusinessLayer.csproj" />
+  <Project Path="ModelLayer/ModelLayer.csproj" />
+  <Project Path="QuantityMeasurementAPI/QuantityMeasurementAPI.csproj" />
+  <Project Path="QuantityMeasurementApp.Tests/QuantityMeasurementApp.Tests.csproj" />
+  <Project Path="QuantityMeasurementApp/QuantityMeasurementApp.csproj" />
+  <Project Path="RepositaryLayer/RepositaryLayer.csproj" />
+</Solution>
